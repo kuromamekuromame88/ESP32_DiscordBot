@@ -6,9 +6,7 @@
 void setup(){
   Serial.begin(115200);
 
-  WiFi.begin("aterm-e26bca-g", "05a7282157314");
-  //WiFi.begin("TのiPhone", "taiseiohira");
-  //WiFi.begin("NNCT-A_2G4", "pochione1");
+  WiFi.begin("ssid", "password");
 
   pinMode(0, INPUT_PULLUP);
   Discord.begin("");
