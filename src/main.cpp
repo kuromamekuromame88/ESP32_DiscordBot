@@ -6,7 +6,7 @@
 void setup(){
   Serial.begin(115200);
 
-  WiFi.begin("ssid", "password");
+  WiFi.begin("SSID", "PASS");
 
   pinMode(0, INPUT_PULLUP);
   Discord.begin("");
